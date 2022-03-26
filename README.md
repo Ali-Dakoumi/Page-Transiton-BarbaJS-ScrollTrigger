@@ -21,14 +21,14 @@ i am able to use those three libraries together without any problem.
 
 ## The main steps
 
-1- Init the smooth scrollbar
-2- Init the scrolltrigger proxy which is necessary to be able to work with a smoothscroll
-3- Update the scrollbar and the scroltrigger
-4- Fix the markers position of scrolltrigger
-5- Kill the triggers before leaving the current page, use the barba global hook for that
-6- Make sure to update everything about the scrollbar in the barba global hook
-7- the animation function and the markers position function should be called on the onComplete function, just to make sure that the new page has already entered
-8- use the lazy boolean variable in the .from gsap tweens to avoid any issues...
+1. Init the smooth scrollbar
+2. Init the scrolltrigger proxy which is necessary to be able to work with a smoothscroll
+3. Update the scrollbar and the scroltrigger
+4. Fix the markers position of scrolltrigger
+5. Kill the triggers before leaving the current page, use the barba global hook for that
+6. Make sure to update everything about the scrollbar in the barba global hook
+7. the animation function and the markers position function should be called on the onComplete function, just to make sure that the new page has already entered
+8. use the lazy boolean variable in the .from gsap tweens to avoid any issues...
 
 
 
