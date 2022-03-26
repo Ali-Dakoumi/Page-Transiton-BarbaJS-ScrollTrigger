@@ -93,9 +93,7 @@ markersPosition();
 barba.hooks.leave(() => {
   ScrollTrigger.getAll().forEach((t) => t.kill());
 });
-barba.hooks.after(() => {
-  updateScroll();
-});
+barba.hooks.after(() => {});
 
 barba.init({
   // debug: true,
