@@ -22,10 +22,21 @@ body {
 .scroller {
   height: 100vh;
 }
-
+header {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  z-index: 100;
+}
 header a {
   color: black;
   font-size: 5rem;
+  margin: 1rem;
 }
 section {
   height: 100vh;
