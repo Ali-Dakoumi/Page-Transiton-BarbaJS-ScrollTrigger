@@ -133,7 +133,7 @@ function animation() {
       end: () => "+=" + innerHeight,
       pin: true,
       scrub: true,
-      markers: true,
+      // markers: true,
     },
   });
   gsap.to("section.red .text", {
@@ -143,7 +143,7 @@ function animation() {
       start: "top top",
       end: () => "+=" + innerHeight,
       scrub: true,
-      markers: true,
+      // markers: true,
       pin: true,
     },
   });
@@ -165,7 +165,7 @@ function animation() {
       end: () => "+=" + innerHeight,
       pin: true,
       scrub: true,
-      markers: true,
+      // markers: true,
     },
   });
 }
