@@ -1,6 +1,6 @@
 # Page-Transiton-BarbaJS-ScrollTrigger
 
-This is a simple project using barba JS to make creative page transitions.
+The purppse of this demo is to use barba js (page transition) scrolltrigger from gsap (scroll animation) and smooth scrollbar combined together.
 
 Check it out here : https://ali-dakoumi.github.io/Page-Transiton-BarbaJS-ScrollTrigger/
 
@@ -29,7 +29,3 @@ i am able to use those three libraries together without any problem.
 6. Make sure to update everything about the scrollbar in the barba global hook
 7. the animation function and the markers position function should be called on the onComplete function, just to make sure that the new page has already entered
 8. use the lazy boolean variable in the .from gsap tweens to avoid any issues...
-
-
-
-
